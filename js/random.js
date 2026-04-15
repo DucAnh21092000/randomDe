@@ -8,14 +8,26 @@ const data = [
     {
         id: 2,
         answer: ['20182486', '20182487', "20182488", "20182489"],
-        question: "MSSV của fukboiz Hải Dương là gì ?",
+        question: "MSSV của Hải là gì ?",
         correct: '20182486'
     },
     {
         id: 3,
-        answer: ['Đức Anh', 'sdsdvdsvds'],
+        answer: ['Đức Anh', 'Hải'],
         question: "Trang giấy trắng là ai ?",
         correct: 'Đức Anh'
+    },
+     {
+        id: 4,
+        answer: ['22-09-2000', '21-09-2000'],
+        question: "Đức Anh sinh ngày bao nhiêu ?",
+        correct: '21-09-2000'
+    },
+     {
+        id: 5,
+        answer: ['Hust', 'Hubt'],
+        question: "Trường mình tên là gì ?",
+        correct: 'Hust'
     }
 ]
 
@@ -74,7 +86,7 @@ const handleGetAnswer = () => {
 }
 
 
-handleRandomQuestion(2)
+handleRandomQuestion(3)
 
 
 const check = (arrAnswer, list) => {
