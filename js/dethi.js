@@ -8,7 +8,7 @@
     {
         id: 2,
         answer: ['20182486', '20182487', "20182488", "20182489"],
-        question: "MSSV của fukboiz Hải Dương là gì ?",
+        question: "MSSV của Hải là gì ?",
         correct: '20182486'
     },
     {
